@@ -4,8 +4,8 @@ import { BsFillHCircleFill } from "react-icons/bs";
 
 function Navbar() {
   return (
-    <nav>
-      <div className="container sm:flex absolute inset-0 justify-between hidden">
+    <nav className="hidden sm:flex">
+      <div className="container sm:flex absolute inset-0 justify-between">
         <div>
           <h2 className="font-bold text-3xl flex gap-x-2">
             <BsFillHCircleFill size={32} className="text-btnS" />

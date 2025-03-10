@@ -9,8 +9,8 @@ function MobileNavbar() {
     const [click, setClick] = useState(false);
 
   return (
-    <nav className="py-4">
-      <div className="container flex justify-between sm:hidden gap-x-4">
+    <nav className="py-4 flex sm:hidden">
+      <div className="container flex justify-between gap-x-4">
         <div className="grow">
           <h2 className="font-bold flex gap-x-2">
             <BsFillHCircleFill size={24} className="text-btnS" />
