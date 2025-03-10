@@ -15,7 +15,7 @@ function Footer() {
             <BsFillHCircleFill size={32} className="text-btnS" />
             هاب فریلنسر
         </h2>
-        <p className="w-72 m-auto sm:py-4 sm:text-right text-center">
+        <p className="w-72 sm:m-0 m-auto sm:py-4 pt-4 sm:text-right text-center">
         ما یک تیم متخصص و مجرب در حوزه‌های مختلف هستیم که با هدف اتصال فریلنسرهای حرفه‌ای به کارفرمایان، خدمات با کیفیت و تخصصی را ارائه می‌دهیم. 
         </p>
         <div className="flex sm:justify-start justify-center gap-x-4 pt-4">
